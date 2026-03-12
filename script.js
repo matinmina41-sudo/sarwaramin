@@ -5,7 +5,6 @@ document.querySelectorAll('nav a').forEach(link => {
     }
 });
 
-// سێرچکردنی زۆر بەهێز بۆ هەموو بەشەکان (وانەکان + پرسیارەکان + گومانەکان)
 // سێرچکردنی زۆر بەهێز + کلیککردن ڕاستەوخۆ دەچێتە ناو پرسیارەکە
 document.getElementById('searchInput')?.addEventListener('input', function(e) {
     const query = e.target.value.trim().toLowerCase();
